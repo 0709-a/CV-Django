@@ -1,0 +1,116 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+{% include 'navbar.html' %}
+<!-- aqui empieza la presentacion -->
+<div class="container bg-white text-center p-5 rounded-4 mt-5 ">
+    <h3 class="text-primary">Portafolio profesional</h3>
+    <h1 class="display-3 fw-bold">Hola, soy Alexander.</h1>
+    <p class="lead text-secondary">
+        Transformo ideas en proyectos a través del código.
+    </p>
+    
+    <div class="mt-4 d-flex flex-wrap justify-content-center gap-3">
+        <a href="#proyectos" class="btn btn-primary btn-lg">
+            Explorar proyectos
+        </a>
+        <a href="#sobre-mi" class="btn btn-outline-secondary btn-lg">
+            Sobre mí
+        </a>
+    </div>
+</div>
+<!-- aqui termina la presentacion -->
+
+
+
+<!-- aqui empieza la imagen de presentacion -->
+<div class=" mt-3 text-center col-12">
+  <img src="{% static 'img/imagen-presentacion.jpg' %}" class="rounded img-fluid" style="width: 500px;" alt="...">
+</div>
+<!-- aqui termina la imagen de presentacion -->
+
+
+
+<div id="lenguajes" class="container mt-5">
+    <h2>Mis tecnologías</h2>
+    <p class="lead text-secondary">
+        Estos son los lenguajes que conozco.
+    </p>
+</div>
+
+<!-- aqui empiezan las tarjetas -->
+<div class="container">
+    <div class="row g-4 mt-1">
+
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="card tecnologia rounded-4 h-100">
+                <div class="card-body text-center p-4">
+                  <img src="{% static 'img/javascript.svg' %}" class="rounded img-fluid" style="width: 100px;" alt="...">
+                    <h3>JavaScript</h3>
+                    <p>Programación</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="card tecnologia rounded-4 h-100">
+                <div class="card-body text-center p-4">
+                  <img src="{% static 'img/html5.svg' %}" class="rounded img-fluid" style="width: 100px;" alt="...">
+                    <h3>HTML</h3>
+                    <p>Estructura web</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="card tecnologia rounded-4 h-100">
+                <div class="card-body text-center p-4">
+                  <img src="{% static 'img/css.svg' %}" class="rounded img-fluid" style="width: 100px;" alt="...">
+                    <h3>CSS</h3>
+                    <p>Diseño web</p>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="card tecnologia rounded-4 h-100">
+                <div class="card-body text-center p-4">
+                  <img src="{% static 'img/python-original.svg' %}" class="rounded img-fluid" style="width: 100px;" alt="...">
+                    <h3>Python</h3>
+                    <p>Programación</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="card tecnologia rounded-4 h-100">
+                <div class="card-body text-center p-4">
+                  <img src="{% static 'img/django.svg' %}" class="rounded img-fluid" style="width: 100px;" alt="...">
+                    <h3>Django</h3>
+                    <p>Desarrollo web con Python </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="card tecnologia rounded-4 h-100">
+                <div class="card-body text-center p-4">
+                  <img src="{% static 'img/php.svg' %}" class="rounded img-fluid" style="width: 100px;" alt="...">
+                    <h3>PHP</h3>
+                    <p>Programación</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+<!-- aqui terminan las tarjetas -->
+
+
+{% endblock %}
+
+
+

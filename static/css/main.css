@@ -1,0 +1,73 @@
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #F5F5F7;
+    color: #1D1D1F;
+}
+.navbar {
+    background-color: #FFFFFF !important;
+}
+.text-primary {
+    color: #0071E3 !important;
+}
+
+
+
+.card {
+    background-color: #FFFFFF;
+    border: 1px solid #E8E8ED;
+}
+
+
+.card h3 {
+    font-weight: 600;
+    color: #1D1D1F;
+}
+
+.tecnologia {
+    border: 1px solid #E8E8ED;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tecnologia:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+
+
+.habilidad-card {
+    height: 650px;
+    overflow: hidden;
+    border: none;
+}
+
+.habilidad-card .card-body {
+    flex: 0 0 auto;
+    padding: 35px 20px;
+  
+}
+
+.habilidad-img {
+    width: 100%;
+    height: 430px;
+    object-fit: contain;
+}
+#volver-arriba {
+    display: none;
+}
+.carousel-proyecto-img {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+}
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 12px;
+    padding: 15px;
+}
+
+.carousel-caption h5,
+.carousel-caption p {
+    color: white;
+}
